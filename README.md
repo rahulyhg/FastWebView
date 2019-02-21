@@ -1,5 +1,5 @@
 # FastWebView
-拦截静态资源加载，自定义本地缓存策略的WebView, 大幅提高WebView加载速度, 同时支持离线加载和预加载。
+核心实现思想：通过拦截静态资源加载，自定义本地缓存策略的WebView, 大幅提高WebView二次加载速度, 同时支持离线加载和预加载。
 
 ## 使用方法
 替换原生的WebView, 并打开缓存开关。
@@ -31,4 +31,4 @@ FastWebView.preload(Context context, String url)
 2. 需要支持离线加载
 3. 对加载速度要求高
 
-源码很清楚，基于源码可自行扩展
+源码很清楚，基于源码可自行扩展。
